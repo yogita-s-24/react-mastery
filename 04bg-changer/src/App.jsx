@@ -31,10 +31,15 @@ function App() {
               style={{ backgroundColor: "blue" }}
             >Blue</button>
             <button
-              onClick={() => setColor("grey")}
+              onClick={() => setColor("rgb(51, 0, 51)")}
               className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-              style={{ backgroundColor: "grey" }}
-            >Grey</button>
+              style={{ backgroundColor: "rgb(51, 0, 51)" }}
+            >Purple</button>
+            <button
+              onClick={() => setColor("#ff0066")}
+              className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+              style={{ backgroundColor: "#ff0066" }}
+            >Pink</button>
           </div>
         </div>
       </div>
